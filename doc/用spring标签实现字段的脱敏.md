@@ -72,7 +72,7 @@ public @interface SensitiveInfo {
 
 有时在写标签类时会碰到@Target，@Retention还有@Order的用法，这里简单的概括一下：
 
-```json
+```
 @Target
 
 这个注解就是表明该注解类能够作用的范围，也就是能够注解在哪，比如 类、方法、参数等。 
