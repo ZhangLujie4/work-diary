@@ -3,7 +3,7 @@ record something to learn during work
 
 [用spring标签实现字段的脱敏](/doc/用spring标签实现字段的脱敏.md)
 
-[Spring Security Jwt学习](/doc/spring security.md)
+[Spring Security Jwt学习](/doc/spring_security.md)
 
 [git服务器搭建](/doc/git服务器搭建.md)
 
