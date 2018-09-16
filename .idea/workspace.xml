@@ -35,12 +35,12 @@
       <usages-collector id="statistics.js.language.service.starts" />
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="md" value="31" />
+          <entry key="md" value="181" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Markdown" value="31" />
+          <entry key="Markdown" value="181" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
@@ -64,8 +64,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="60">
-                <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+              <first_editor relative-caret-position="225">
+                <caret line="15" column="32" lean-forward="true" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
               </first_editor>
               <second_editor />
             </state>
@@ -170,8 +170,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="147" />
-    <option name="y" value="87" />
+    <option name="x" value="79" />
+    <option name="y" value="65" />
     <option name="width" value="1122" />
     <option name="height" value="672" />
   </component>
@@ -186,6 +186,11 @@
             <path>
               <item name="work-diary" type="b2602c69:ProjectViewProjectNode" />
               <item name="work-diary" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="work-diary" type="b2602c69:ProjectViewProjectNode" />
+              <item name="work-diary" type="462c0819:PsiDirectoryNode" />
+              <item name="doc" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -221,23 +226,23 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1537109105661</updated>
-      <workItem from="1537109108701" duration="1076000" />
+      <workItem from="1537109108701" duration="1371000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1076000" />
+    <option name="totallyTimeSpent" value="1371000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="147" y="87" width="1122" height="672" extended-state="0" />
+    <frame x="79" y="65" width="1122" height="672" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24977294" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" weight="0.32931036" />
+      <window_info anchor="bottom" id="Version Control" weight="0.32931036" />
+      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.32931036" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -339,8 +344,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="60">
-            <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+          <first_editor relative-caret-position="225">
+            <caret line="15" column="32" lean-forward="true" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
           </first_editor>
           <second_editor />
         </state>
