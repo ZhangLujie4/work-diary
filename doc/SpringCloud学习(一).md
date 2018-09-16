@@ -38,7 +38,7 @@ spring:
 ```
 
 效果如下图：
-![eureka client](https://img-blog.csdn.net/20180904093535332?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzMzMjM1MDU5/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70)
+![eureka client](https://github.com/ZhangLujie4/work-diary/blob/master/img/cloud_1_1.png)
 
 除此之外，eureka的高可用也是需要用小本本记下来的知识点，这个版本高可用的实现和我之前学的有很大出入，不过官方文档写的挺好的，具体实现如下：
 
@@ -90,7 +90,7 @@ eureka:
 
 效果如下：
 
-![高可用](https://img-blog.csdn.net/20180904093608628?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzMzMjM1MDU5/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70)
+![高可用](https://github.com/ZhangLujie4/work-diary/blob/master/img/cloud_1_2.png)
 
 当服务注册到一个server的时候相当于注册到了三个server，但是显示在server上的只有一个，当一个server挂掉的时候，就会跑到另外两个好的server，避免了服务也挂掉。默认的负载均衡方式是轮询。
 
