@@ -21,7 +21,7 @@ public class ServerController {
 
 可以看看接口的输出：
 
-![api](https://img-blog.csdn.net/20180904111219279?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzMzMjM1MDU5/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70)
+![api](https://github.com/ZhangLujie4/work-diary/blob/master/img/cloud_2_1.png)
 
 想要在**order**获取到**product**的接口数据：
 
