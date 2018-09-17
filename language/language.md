@@ -30,7 +30,7 @@ Not right of Bob: Bob thinks
 Bob-->Alice: I am good thanks!
 ```
 
-这是一个注脚[^1]的样例
+这是一个注脚[^footnote1]的样例
 
 :smile:
 
