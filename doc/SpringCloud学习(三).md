@@ -36,10 +36,13 @@ eureka:
 ```
 
 4、在配置文件yml中
+
 ![配置](/img/cloud_3_1.png)
+
 如果所建的git是私人仓库，还需要在配置中加上`password`和`username`
 
 5、在启动类上
+
 ![启动类](/img/cloud_3_2.png)
 
 然后将配置中心启动就可以注册到eureke server了
@@ -66,7 +69,9 @@ eureka:
 按照上述的配置启动，你会发现应用根本运行不起来，这就尴尬了。
 
 看到启动的控制台的信息：
+
 ![控制台信息](/img/cloud_3_4.png)
+
 可以看到一个很奇怪的东西
 ```
 http://localhost:8888/order/dev
@@ -80,7 +85,7 @@ spring:
 ```
 就能解决这个问题，但是这种解决方法治标不治本。因为你需要在这里指出具体的配置中心的ip和端口，很不方便。
 
-其实，如果eureka server是开启在`默认端口8761`,那么即使你不加uri的配置，注册应用也能顺利启动。这就说明，当eureka client在启动时，如果没有配置好eureka.client.service-url.defaultZone, 应用会从默认的8761端口找config服务。很显然，我们注册中心开启在端口8762, 所以找不到配置文件, eureka client启动失败
+其实，如果eureka server是开启在`默认端口8761`,那么即使你不加uri的配置，注册应用也能顺利启动。这就说明，当eureka client在启动时，如果没有配置好eureka.client.service-url.defaultZone, 应用会从默认的8761端口找config服务。很显然，我们注册中心开启在端口8762, 所以找不到配置文件, eureka client启动失败
 
 解决方法也很简单, 只需要把配置中心order-dev.yml中有关服务注册的代码写到bootstrap.yml, 启动项目时，会通过注册的地址找到config项目获取配置。
 
