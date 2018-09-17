@@ -55,7 +55,7 @@ eureka:
 ```
 2、将application.yml重命名为bootstrap.xml
 
-<strong>ps:</strong>因为将application.xml的数据库配置剪切到了配置中心，按照一般的配置文件加载顺序，在application.xml中无法获得mysql的配置信息，程序启动会报错，用了bootstrap.xml可以解决这个问题。
+<strong>ps:</strong>因为将application.xml的数据库配置剪切到了配置中心，按照一般的配置文件加载顺序，在application.xml中无法获得mysql的配置信息，程序启动会报错，用了bootstrap.xml可以解决这个问题。
 
 3、bootstrap.xml配置:
 
@@ -104,9 +104,9 @@ spring:
 3、在需要修改的部分加上注解 **@RefreshScope**
 
 4、动态刷新
-刷新git上的配置时，一般使用git工具，但是实际操作时，gitlab,github,gitee的webhook都不好用。:joy:
+刷新git上的配置时，一般使用git工具，但是实际操作时，gitlab,github,gitee的webhook都不好用。:joy:
 
-后来查阅了网上的资料，解决了配置文件自动更新，具体实现如下：
+后来查阅了网上的资料，解决了配置文件自动更新，具体实现如下：
 
 ![](/img/cloud_3_6.png)
 
