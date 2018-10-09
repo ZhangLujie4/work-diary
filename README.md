@@ -17,6 +17,7 @@ record something to learn during work
 
 [SpringCloud学习(三)](/doc/SpringCloud学习(三).md)
 
+[SpringCloud学习(四)](/doc/SpringCloud学习(四).md)**待完成**
 
 - [ ] Spring Security或者Shiro+数据库实现 用户、角色、权限（菜单管理）
 
