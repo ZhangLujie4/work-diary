@@ -4,7 +4,7 @@
 SpringCloud中每一个应用都有对应的项目，项目都有各自的配置文件。统一管理的配置中心，能够像应用一样注册到eureka server上。
 各项目可以通过拉取不同的配置完成项目的启动，通过动态刷新配置的方法，应用还可以在不重启的情况下更改配置环境。
 
-<strong style="color:red">springboot 2.0.1.RELEASE</strong><br>
+<strong style="color:red">springboot 2.0.1.RELEASE</strong>
 <strong style="color:red">springcloud Finchley.SR1</strong>
 
 ## 建立配置中心

@@ -26,14 +26,17 @@ $$\sum^{j-1}_{k=0}{\widehat{\gamma}_{kj}z_k}$$
 
 ```sequence
 Alice->Bob: Hello Bob, how are you?
-Not right of Bob: Bob thinks
+Note right of Bob: Bob thinks
 Bob-->Alice: I am good thanks!
 ```
 
 这是一个注脚[^1]的样例
 
-:smile: :joy:
+[^1]: http://www.baidu.com
 
+
+
+:smile: :joy:
 
 
 
