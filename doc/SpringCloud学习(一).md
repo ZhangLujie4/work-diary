@@ -1,6 +1,9 @@
 刚开始学springcloud的时候版本问题各种坑，然后弃坑了。
 
-现在相对稳定的版本已经出来了，所以开始搞一搞。接下来是对**springboot(2.0.2.RELEASE)** **springcloud(Finchley.RELEASE)**学习的一些记录。
+现在相对稳定的版本已经出来了，所以开始搞一搞。接下来是对
+**springboot(2.0.2.RELEASE)**
+**springcloud(Finchley.RELEASE)**
+学习的一些记录。
 
 话不多说，先从最基础的eureka server开始:
 
