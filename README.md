@@ -17,8 +17,13 @@ record something to learn during work
 
 [SpringCloud学习(三)](/doc/SpringCloud学习(三).md)
 
-[SpringCloud学习(四)](/doc/SpringCloud学习(四).md)**待完成**
+[SpringCloud学习(四)](/doc/SpringCloud学习(四).md)
+
+(待坐)[SpringCloud学习(五)](/doc/SpringCloud学习(五)
 
 - [ ] Spring Security或者Shiro+数据库实现 用户、角色、权限（菜单管理）
+
+- [ ] springboot+复合主键
+- [ ] springboot+mongodb
 
 

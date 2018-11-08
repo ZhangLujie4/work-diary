@@ -236,6 +236,30 @@ public class SendMessageController {
 ```
 通过调用相应的output发送消息到input并获取消息
 
+## 具体服务应用
+
+在MQ选型时，最重要的还是可靠地消息投递
+在product和order服务之间使用mq，具体逻辑如下：
+![mq](/img/cloud_4_8.png)
+
+服务调用关系
++ 查询商品信息（调用商品服务）
++ 计算总价（生成订单详情）
++ 商品扣库存（调用商品服务）
++ 订单入库（生成订单）
+
+redis结合
++ 库存在redis中
++ redis判断库存是否充足， 减掉redis中库存 
+// 读redis
+// 减库存并将新值重新设置进redis
+// 订单入库异常，手动回滚（try catch）
++ 订单服务创建订单，写入数据库，并发动消息
+
+![](/img/cloud_4_9.png)
+
+**Tips** yml文件中spring的配置的前缀不能多加
+
 [^1]: https://www.cnblogs.com/linkenpark/p/5393666.html
 
 
